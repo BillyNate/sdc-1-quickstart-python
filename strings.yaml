@@ -1,0 +1,26 @@
+action:
+    - rotate_right_side_up_clockwise
+    - rotate_right_side_up_counterclockwise
+    - rotate_sideways_clockwise
+    - rotate_sideways_counterclockwise
+    - rotate_upside_down_clockwise
+    - rotate_upside_down_counterclockwise
+    - touchpad_swipe_up
+    - touchpad_swipe_down
+    - touchpad_swipe_left
+    - touchpad_swipe_right
+    - touchpad_press_north
+    - touchpad_press_south
+    - touchpad_press_east
+    - touchpad_press_west
+    - touchpad_press_center
+    - touchpad_long_press_north
+    - touchpad_long_press_south
+    - touchpad_long_press_east
+    - touchpad_long_press_west
+    - touchpad_long_press_center
+    - touchpad_scroll_clockwise
+    - touchpad_scroll_counterclockwise
+    - reserved
+    - reserved
+    - spin_wake_up
