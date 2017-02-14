@@ -13,6 +13,12 @@ It has been tested in Python 2.7 and 3.4 on both a Raspberry Pi 3 using the buil
 3. Go into the newly created directory: `cd sdc-1-quickstart-python`
 4. Use pip to install requirements: `sudo pip3 install -r requirements.txt`
 5. Start the script: `sudo python3 ./sdc-1-quickstart.py` (needs root to access the bluetooth)
+6. Optionally: If you want to start the script without root, you could set the capabilities:
+
+    ```
+    sudo apt-get install libcap2-bin
+    sudo setcap "cap_net_raw,cap_net_admin+eip" "/usr/local/lib/python3.4/dist-packages/bluepy/bluepy-helper"
+    ```
 
 ## Contributing
 1. Fork it!
